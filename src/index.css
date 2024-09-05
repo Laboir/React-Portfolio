@@ -28,3 +28,97 @@ form input {
 form textarea {
   padding: 0.6rem;
 }
+
+@media (max-width: 560px) {
+  html,
+  body {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  header {
+    width: 100% !important ;
+    height: 100% !important;
+    padding: 0px !important;
+    background-color: red !important;
+  }
+
+  nav ul {
+    width: 100%;
+    gap: 4rem !important;
+    justify-content: center !important;
+  }
+
+  nav ul > li {
+    font-size: 1.2rem;
+    color: red;
+  }
+
+  /* Image */
+  .after-header {
+    width: 100% !important;
+    justify-content: center;
+  }
+  .about {
+    justify-content: center;
+    width: 100%;
+    margin: 1rem !important;
+    height: 300px;
+    gap: 1rem;
+    padding-inline: 5rem;
+  }
+
+  .about p {
+    width: 400px;
+    text-align: justify;
+  }
+
+  .after-header {
+    flex-direction: column !important ;
+  }
+  #project {
+    padding: 1rem;
+    gap: 0px;
+  }
+  #project h2 {
+    font-size: 2rem;
+  }
+
+  .project-card-container {
+    padding-top: -10px;
+    width: 50%;
+    flex-direction: column !important;
+    align-items: center;
+    row-gap: 1.8rem;
+  }
+
+  .project-card-container img {
+    width: 200px;
+    height: 200px;
+  }
+  .first-last-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-container {
+    padding-block: 2rem;
+  }
+
+  .form-container h2 {
+    text-align: center;
+    padding-left: 3rem;
+  }
+  .form-container form {
+    align-items: center;
+  }
+  .form-container form input {
+    width: 140%;
+  }
+
+  .text-area-container textarea {
+    width: 140%;
+  }
+}

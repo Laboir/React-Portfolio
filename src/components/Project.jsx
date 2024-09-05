@@ -8,7 +8,7 @@ function Project() {
       id="project"
     >
       <h2 className="text-6xl font-[600]  pb-10   ">Project</h2>
-      <section className="flex w-[1200px]  justify-around   ">
+      <section className="flex w-[1200px]  justify-around  project-card-container">
         <BrowserRouter>
           <Link to="https://lakshdeep-tour.netlify.app/">
             <Cards
@@ -28,7 +28,7 @@ function Project() {
 
 function Cards({ img, ProjectName }) {
   return (
-    <div className="relative flex   items-center ">
+    <div className="relative flex   items-center cards ">
       <img className="rounded-md w-[350px] h-[400px] object-cover " src={img} />
 
       <section className=" gap-5 rounded-md cursor-pointer transition ease-in-out delay-200    opacity-0  h-full w-full flex flex-col items-center text-white justify-center absolute top-0  text-center bg-[rgba(0,0,0,0.5)]   hover:opacity-100   ">

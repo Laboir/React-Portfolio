@@ -1,12 +1,12 @@
 export default function Form() {
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center  form-container ">
       <div className="  gap-5  py-5 px-5 w-[1200px] flex flex-col  justify-center  items-center h-screen ">
         <h2 className=" text-4xl"> Contact </h2>
         <form className="flex flex-col gap-6">
           {/* First and Lastname */}
 
-          <div className="flex gap-3 ">
+          <div className="flex gap-3  first-last-container ">
             {/* firstname */}
             <div className="flex  flex-col ">
               <label htmlFor=""> First Name </label>
@@ -21,7 +21,7 @@ export default function Form() {
           </div>
 
           {/* E-mail */}
-          <div>
+          <div className=" flex flex-col  ">
             <label htmlFor=""> Email </label>
             <input
               className="border-2 border-black"
@@ -31,7 +31,7 @@ export default function Form() {
           </div>
 
           {/* Phone */}
-          <div>
+          <div className="flex flex-col">
             <label htmlFor=""> Phone </label>
             <input
               className="border-2 border-black"
@@ -41,7 +41,7 @@ export default function Form() {
           </div>
 
           {/* Message */}
-          <article className="flex flex-col">
+          <article className="flex flex-col  text-area-container ">
             <label htmlFor=""> Message </label>
             <textarea
               className="border-2 border-black"

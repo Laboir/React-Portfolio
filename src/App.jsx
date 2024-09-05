@@ -6,7 +6,7 @@ import Form from "./components/Form";
 
 export default function App() {
   return (
-    <div className="">
+    <div className="main ">
       <Header />
       <AfterHeadder />
       <About />
@@ -21,7 +21,7 @@ export default function App() {
 // Header
 function Header() {
   return (
-    <div className="">
+    <div className="header">
       <video
         className=" h-screen w-screen object-cover "
         src="../public/bg_video.mp4"
@@ -42,7 +42,7 @@ function Header() {
 
 function AfterHeadder() {
   return (
-    <div className=" bg-fixed h-screen bg-[url('https://images.unsplash.com/photo-1504610926078-a1611febcad3?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]  bg-cover bg-no-repeat bg-center "></div>
+    <div className="   after-header  bg-fixed h-screen bg-[url('https://images.unsplash.com/photo-1504610926078-a1611febcad3?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]  bg-cover bg-no-repeat bg-center "></div>
   );
 }
 
