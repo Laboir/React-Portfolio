@@ -4,6 +4,7 @@
   box-sizing: border-box;
   border: none;
   outline: none;
+  overflow-x: hidden;
 }
 
 html {
@@ -67,11 +68,11 @@ form textarea {
     margin: 1rem !important;
     height: 300px;
     gap: 1rem;
-    padding-inline: 5rem;
+    padding-inline: 2rem;
   }
 
   .about p {
-    width: 400px;
+    width: 100%;
     text-align: justify;
   }
 
@@ -88,15 +89,15 @@ form textarea {
 
   .project-card-container {
     padding-top: -10px;
-    width: 50%;
+    width: 79%;
     flex-direction: column !important;
     align-items: center;
     row-gap: 1.8rem;
   }
 
   .project-card-container img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 300px;
   }
   .first-last-container {
     flex-direction: column;
@@ -104,21 +105,22 @@ form textarea {
   }
 
   .form-container {
-    padding-block: 2rem;
+    /* padding-block: 1rem; */
+    /* width: 500px; */
+    margin: 10px auto;
   }
 
   .form-container h2 {
     text-align: center;
-    padding-left: 3rem;
   }
   .form-container form {
     align-items: center;
   }
   .form-container form input {
-    width: 140%;
+    width: 300px;
   }
 
   .text-area-container textarea {
-    width: 140%;
+    width: 300px;
   }
 }
