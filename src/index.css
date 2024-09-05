@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+form label {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+form input {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid black !important;
+}
+
+form textarea {
+  padding: 0.6rem;
+}
